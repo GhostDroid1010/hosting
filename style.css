@@ -1,0 +1,63 @@
+
+body{
+    background: #b7d5df;
+}
+
+
+
+#navbar{
+    
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contnav {
+    text-decoration: none;
+    list-style: none;
+    
+    padding: 10px;
+    float: inline-start;
+    background: #2bf8ff;
+    border-radius: 70px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: navslide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+.navitem{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    animation-name: h;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#p2{
+    text-align: center;
+}
+
+
+@keyframes h {
+    0% { margin-left : -200px; opacity: 10%;}
+    100% {margin-left: 50px; opacity: 100%;}
+}
+
+@keyframes navslide {
+    0%{opacity: 0%; font-size: 10px;}
+    100%{opacity: 100%; }
+}
